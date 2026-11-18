@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/brand/logo.png" width="104" alt="Wallscape" />
+<img src="assets/brand/logo.png" width="104" alt="Wallpicks" />
 
-<h1>壁境 · Wallscape</h1>
+<h1>壁境 · Wallpicks</h1>
 
 <p><b>看图 · 收藏 · 壁纸</b><br />
 Browse · Collect · Wallpaper — a native Wallhaven client that also sets your desktop wallpaper.</p>
@@ -27,7 +27,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 
 ### 这是什么
 
-壁境（Wallscape）是一个 Wallhaven 壁纸客户端：瀑布流浏览、按关键词 / 分辨率 / 高宽比 / 分级 / 排序筛选、查看大图与标签、收藏、下载，并支持一键设为系统壁纸。
+壁境（Wallpicks）是一个 Wallhaven 壁纸客户端：瀑布流浏览、按关键词 / 分辨率 / 高宽比 / 分级 / 排序筛选、查看大图与标签、收藏、下载，并支持一键设为系统壁纸。
 
 一套 Flutter 代码覆盖 Windows / macOS / Linux / Android / iOS / iPadOS。界面全中文 / 英文 / 日文三语，主题支持自动、浅色与 AMOLED 纯黑深色。
 
@@ -48,6 +48,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 - 瀑布流布局：电脑 1–8 列、手机竖屏 1–2 列，列数在「应用设置 → 首页列数」调整。
 - 左侧筛选：关键词、分辨率（多选）、高宽比（横版 / 竖版 / 宽屏分组，共 12 个官方值）、分类、分级（SFW / SKETCHY / NSFW）、排序方式与方向、榜段时间。
 - 卡片悬停显示收藏 / 下载按钮与下载状态角标，图片不裁剪（用原比例缩略图）。
+- 查看大图：点击图片可放大查看
 
 **详情页**
 
@@ -60,8 +61,9 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 
 - **本机收藏**：点一下就存在这台设备上，可随时取消，也可在设置里一键清空。
 - **网站收藏**：填 API 密钥 + 网站用户名后只读展示（官方接口不开放写）。
+- 标签：显示已订阅标签功能
 - 已下载面板：显示图片、分辨率与「文件已丢失」标记。
-- 下载路径：桌面默认 `图片库 / Wallscape`，支持自定义路径与系统文件夹选择器；移动端保存并同步到系统图库。
+- 下载路径：桌面默认 `图片库 / Wallpicks`，支持自定义路径与系统文件夹选择器；移动端保存并同步到系统图库。
 
 **外观与语言**
 
@@ -79,8 +81,8 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 | --- | :---: | :---: | :---: | --- |
 | Windows | ✅ | ✅ | ✅ | 单实例、最小窗口 720×520 |
 | macOS | ✅ | ✅ | ✅ | 需 Mac + Xcode 构建，未在真机验证 |
-| Linux | ✅ | ✅ | ✅ | 附 `wallscape-x11.sh` 作为 Wayland 会话的 X11 兜底 |
-| Android | ✅ | ✅ | ✅ | 保存到 `Pictures/Wallscape`，Android 10+ 免权限 |
+| Linux | ✅ | ✅ | ✅ | 附 `wallpicks-x11.sh` 作为 Wayland 会话的 X11 兜底 |
+| Android | ✅ | ✅ | ✅ | 保存到 `Pictures/Wallpicks`，Android 10+ 免权限 |
 | iOS / iPadOS | ✅ | ✅ | ⚠️ | 系统不允许第三方直接改壁纸，改为保存相册 + 引导手动设置 |
 | HarmonyOS | — | — | — | 需自行适配 |
 
@@ -119,7 +121,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 
 ### What is this
 
-**Wallscape** is a Wallhaven client for desktop and mobile: browse the waterfall grid, filter by keyword / resolution / aspect ratio / purity / sorting, open a wallpaper with its tags and metadata, collect it, download it — and set it as your system wallpaper in one click.
+**Wallpicks** is a Wallhaven client for desktop and mobile: browse the waterfall grid, filter by keyword / resolution / aspect ratio / purity / sorting, open a wallpaper with its tags and metadata, collect it, download it — and set it as your system wallpaper in one click.
 
 One Flutter codebase targets Windows, macOS, Linux, Android and iOS/iPadOS. The interface ships in Chinese, English and Japanese, with auto / light / AMOLED-black themes.
 
@@ -131,8 +133,8 @@ Beyond browsing, it is built like a personal tool: **no accounts, no telemetry**
 | --- | :---: | :---: | :---: | --- |
 | Windows | ✅ | ✅ | ✅ | Single instance, 720×520 minimum window |
 | macOS | ✅ | ✅ | ✅ | Needs Mac + Xcode, not verified on real hardware |
-| Linux | ✅ | ✅ | ✅ | Ships `wallscape-x11.sh` as an X11 fallback under Wayland |
-| Android | ✅ | ✅ | ✅ | Saves to `Pictures/Wallscape`, no permission needed on Android 10+ |
+| Linux | ✅ | ✅ | ✅ | Ships `wallpicks-x11.sh` as an X11 fallback under Wayland |
+| Android | ✅ | ✅ | ✅ | Saves to `Pictures/Wallpicks`, no permission needed on Android 10+ |
 | iOS / iPadOS | ✅ | ✅ | ⚠️ | Third-party apps cannot change the wallpaper; saves to Photos and guides the user |
 | HarmonyOS | — | — | — | Needs a separate port |
 
@@ -141,7 +143,7 @@ Beyond browsing, it is built like a personal tool: **no accounts, no telemetry**
 - **Browse** — waterfall grid (1–8 columns on desktop, 1–2 on phones), filters for keyword, resolution, 12 official aspect ratios grouped as landscape / portrait / wide, category, purity, sort method, direction and toplist range.
 - **Detail page** — progressive loading (cached small image first, HD fades in), prev/next by swipe or hover arrows following the exact order of the list you came from, copyable wallpaper ID, clickable tags and uploader, info card.
 - **Collections** — favourites stored on device, plus read-only access to your site collections via API key (the official API has no write endpoints).
-- **Downloads** — default folder `Pictures/Wallscape`, customisable on desktop with a native folder picker; on mobile images go to the system gallery.
+- **Downloads** — default folder `Pictures/Wallpicks`, customisable on desktop with a native folder picker; on mobile images go to the system gallery.
 - **Wallpaper** — native "set as wallpaper" on Windows, macOS, Linux and Android.
 - **Look & feel** — Chinese / English / Japanese, auto / light / dark (AMOLED pure black).
 - **Network** — system proxy, direct, or custom `host:port` proxy covering both API calls and images (desktop only).
