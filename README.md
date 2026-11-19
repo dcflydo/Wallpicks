@@ -11,7 +11,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-3.44-02569B?logo=flutter&logoColor=white" alt="Flutter" /></a>
   <a href="#平台支持"><img src="https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android-4B5563" alt="Platforms" /></a>
   <a href="#文案与本地化"><img src="https://img.shields.io/badge/i18n-中文%20%C2%B7%20English%20%C2%B7%20日本語-0A84FF" alt="i18n" /></a>
-  <a href="pubspec.yaml"><img src="https://img.shields.io/badge/version-0.3.8-34C759" alt="Version" /></a>
+  <a href="pubspec.yaml"><img src="https://img.shields.io/badge/version-1.0.9-34C759" alt="Version" /></a>
   <a href="#license"><img src="https://img.shields.io/badge/license-MIT-FF9F0A" alt="License" /></a>
 </p>
 
