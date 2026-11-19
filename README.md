@@ -9,7 +9,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 
 <p>
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-3.44-02569B?logo=flutter&logoColor=white" alt="Flutter" /></a>
-  <a href="#平台支持"><img src="https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android%20%7C%20iOS-4B5563" alt="Platforms" /></a>
+  <a href="#平台支持"><img src="https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android-4B5563" alt="Platforms" /></a>
   <a href="#文案与本地化"><img src="https://img.shields.io/badge/i18n-中文%20%C2%B7%20English%20%C2%B7%20日本語-0A84FF" alt="i18n" /></a>
   <a href="pubspec.yaml"><img src="https://img.shields.io/badge/version-0.3.8-34C759" alt="Version" /></a>
   <a href="#license"><img src="https://img.shields.io/badge/license-MIT-FF9F0A" alt="License" /></a>
@@ -29,7 +29,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 
 壁境（Wallpicks）是一个 Wallhaven 壁纸客户端：瀑布流浏览、按关键词 / 分辨率 / 高宽比 / 分级 / 排序筛选、查看大图与标签、收藏、下载，并支持一键设为系统壁纸。
 
-一套 Flutter 代码覆盖 Windows / macOS / Linux / Android / iOS / iPadOS。界面全中文 / 英文 / 日文三语，主题支持自动、浅色与 AMOLED 纯黑深色。
+一套 Flutter 代码覆盖 Windows / macOS / Linux / Android 。界面全中文 / 英文 / 日文三语，主题支持自动、浅色与 AMOLED 纯黑深色。
 
 除浏览壁纸之外，它更像个工具：**没有账号体系、没有埋点**，收藏与下载记录只存在这台设备上。
 
@@ -83,8 +83,6 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 | macOS | ✅ | ✅ | ✅ | 需 Mac + Xcode 构建，未在真机验证 |
 | Linux | ✅ | ✅ | ✅ | 附 `wallpicks-x11.sh` 作为 Wayland 会话的 X11 兜底 |
 | Android | ✅ | ✅ | ✅ | 保存到 `Pictures/Wallpicks`，Android 10+ 免权限 |
-| iOS / iPadOS | ✅ | ✅ | ⚠️ | 系统不允许第三方直接改壁纸，改为保存相册 + 引导手动设置 |
-| HarmonyOS | — | — | — | 需自行适配 |
 
 
 ### 翻译本地化
@@ -101,7 +99,6 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 
 ### 已知限制
 
-- iOS / iPadOS 不能直接改壁纸，只能保存到相册后手动设置。
 - 网站收藏只读，取消收藏只能操作本机收藏。
 - macOS 与 Linux 的构建脚本已就绪，但只在作者环境验证过，欢迎反馈。
 
@@ -123,7 +120,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 
 **Wallpicks** is a Wallhaven client for desktop and mobile: browse the waterfall grid, filter by keyword / resolution / aspect ratio / purity / sorting, open a wallpaper with its tags and metadata, collect it, download it — and set it as your system wallpaper in one click.
 
-One Flutter codebase targets Windows, macOS, Linux, Android and iOS/iPadOS. The interface ships in Chinese, English and Japanese, with auto / light / AMOLED-black themes.
+One Flutter codebase targets Windows, macOS, Linux, Android. The interface ships in Chinese, English and Japanese, with auto / light / AMOLED-black themes.
 
 Beyond browsing, it is built like a personal tool: **no accounts, no telemetry** — favourites and download records stay on the device.
 
@@ -135,8 +132,6 @@ Beyond browsing, it is built like a personal tool: **no accounts, no telemetry**
 | macOS | ✅ | ✅ | ✅ | Needs Mac + Xcode, not verified on real hardware |
 | Linux | ✅ | ✅ | ✅ | Ships `wallpicks-x11.sh` as an X11 fallback under Wayland |
 | Android | ✅ | ✅ | ✅ | Saves to `Pictures/Wallpicks`, no permission needed on Android 10+ |
-| iOS / iPadOS | ✅ | ✅ | ⚠️ | Third-party apps cannot change the wallpaper; saves to Photos and guides the user |
-| HarmonyOS | — | — | — | Needs a separate port |
 
 ### Features
 
@@ -163,7 +158,6 @@ Preferences, favourites, download history and the API key are stored locally wit
 
 ### Known limitations
 
-- iOS / iPadOS cannot change the wallpaper; images are saved to Photos for manual setup.
 - The web build is a preview only — download and set-wallpaper show an explanatory hint.
 - Site collections are read-only; unfavouriting only affects local favourites.
 
