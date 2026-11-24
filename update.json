@@ -1,33 +1,33 @@
 {
-  "version": "1.2.0",
-  "build": 75,
-  "date": "2026-11-23",
-  "notes": "新增应用内检查更新；优化标签预取命中率；修复 API 密钥提示文案。Added in-app update checks; optimized tag prefetch hit rate; fixed API key prompt text.",
+  "version": "1.3.3",
+  "build": 79,
+  "date": "2026-11-24",
+  "notes": "新增壁纸设置预览：可旋转/缩放/移动壁纸；New:Wallpaper preview feature added!",
   "files": {
     "windows_x64": {
-      "path": "releases/1.2.0/Wallpicks_1.2.0_Windows_x64.zip",
-      "sha256": "507ad292f1a96a04c302b0c687b0cfd3977521d3a19fbeea843fcafd509fe7fb",
-      "size": 15115849
+      "path": "releases/1.3.3/Wallpicks_1.3.3_Windows_x64.zip",
+      "sha256": "1aa10da5e70f32d1c91a81427b9494b61253882120bcd967f254b4bff27889c4",
+      "size": 15583845
     },
     "linux_x64": {
-      "path": "releases/1.2.0/Wallpicks_1.2.0_Linux_x64.tar.gz",
-      "sha256": "2a31e37bf3afac640562cc8ef8b373fa6a297b6c9fe9d61908d9ec6b3ebcdfc3",
-      "size": 12827176
+      "path": "releases/1.3.3/Wallpicks_1.3.3_Linux_x64.tar.gz",
+      "sha256": "2d17025ca99f2552665d0ab9ffef3289e1083dd5222708584f1dab8a61587682",
+      "size": 13297317
     },
     "linux_deb": {
-      "path": "releases/1.2.0/Wallpicks_1.2.0_Linux_x64.deb",
-      "sha256": "f0c9c04185a9a551bce4be684bb4b896df6e6d95005d15977c471978699e9e0a",
-      "size": 10721246
+      "path": "releases/1.3.3/Wallpicks_1.3.3_Linux_x64.deb",
+      "sha256": "00868e90d1b40104bb5a6d910b298d5ad543b44070c2ff7aa8ec51b25cba1171",
+      "size": 11097444
     },
     "android_arm64": {
-      "path": "releases/1.2.0/Wallpicks_1.2.0_Android_arm64-v8a.apk",
-      "sha256": "556c3e79d329e1a98af3eefb1395984727ecd242c8ff1c70958b49d598b1054c",
-      "size": 21000274
+      "path": "releases/1.3.3/Wallpicks_1.3.3_Android_arm64-v8a.apk",
+      "sha256": "16cbca75198d4a54b96c01355a386bc3e8f00b25fcf2d20121810d26019aedf2",
+      "size": 22115238
     },
     "android_x86_64": {
-      "path": "releases/1.2.0/Wallpicks_1.2.0_Android_x86_64.apk",
-      "sha256": "5d22e086585e9ed0db4b244c6378d848028238ebada8abf5a1b77c6901a47ece",
-      "size": 22391854
+      "path": "releases/1.3.3/Wallpicks_1.3.3_Android_x86_64.apk",
+      "sha256": "a0195108d2637eff094881836382a026509333846658585efe32031c07d9313b",
+      "size": 23572358
     }
   }
 }
