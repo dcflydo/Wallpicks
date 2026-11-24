@@ -45,16 +45,16 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 
 **浏览**
 
-- 瀑布流布局：电脑 1–8 列、手机竖屏 1–2 列，列数在「应用设置 → 首页列数」调整。
-- 左侧筛选：关键词、分辨率（多选）、高宽比（横版 / 竖版 / 宽屏分组，共 12 个官方值）、分类、分级（SFW / SKETCHY / NSFW）、排序方式与方向、榜段时间。
-- 卡片悬停显示收藏 / 下载按钮与下载状态角标，图片不裁剪（用原比例缩略图）。
-- 查看大图：点击图片可放大查看
+- 瀑布流布局：电脑支持1–8 列、手机竖屏 1–2 列。
+- 左侧筛选：关键词、分辨率、高宽比（横版 / 竖版 / 宽屏分组，共 12 个官方值）、分类、分级（SFW / SKETCHY / NSFW）、排序方式与方向、榜段时间。
+- 卡片悬停显示收藏 / 下载按钮与下载状态角标。
+- 查看大图：点击图片可放大查看并设置壁纸
 
 **详情页**
 
-- 渐进式加载：点开瞬间先用已缓存的原比例小图铺满（含整页模糊底色），高清原图到位后淡入覆盖。
-- 左右滑动 / 箭头翻页（PC 悬停显示箭头），原地切换不重建路由；严格按来源列表顺序走、不跨列表；详情结果与下一张原图都会预取。
-- 收藏、下载、设为壁纸三个动作；`#图片ID` 可点击复制纯 ID；点标签看同标签的图，点上传人头像看 TA 的图。
+- 渐进式加载：流畅的看图体验。
+- 左右滑动 / 箭头翻页（PC 悬停显示箭头）；详情结果与下一张原图都会预取。
+- 收藏、下载、设为壁纸三个动作；点击`#图片ID` 可点击复制纯 ID；点标签看同标签的图，点上传人头像看 TA 的图。
 - 信息区：分辨率、文件大小、浏览数、主色、分级、上传时间、标签。
 
 **收藏与下载**
@@ -62,7 +62,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 - **本机收藏**：点一下就存在这台设备上，可随时取消，也可在设置里一键清空。
 - **网站收藏**：填 API 密钥 + 网站用户名后只读展示（官方接口不开放写）。
 - 标签：显示已订阅标签功能
-- 已下载面板：显示图片、分辨率与「文件已丢失」标记。
+- 已下载面板：显示已下载图片。
 - 下载路径：桌面默认 `图片库 / Wallpicks`，支持自定义路径与系统文件夹选择器；移动端保存并同步到系统图库。
 
 **外观与语言**
@@ -100,7 +100,7 @@ Browse · Collect · Wallpaper — a native Wallhaven client that also sets your
 ### 已知限制
 
 - 网站收藏只读，取消收藏只能操作本机收藏。
-- macOS 与 Linux 的构建脚本已就绪，但只在作者环境验证过，欢迎反馈。
+- macOS的构建脚本已就绪，但只在作者环境验证过，欢迎反馈。
 
 ### 免责声明
 
@@ -136,7 +136,7 @@ Beyond browsing, it is built like a personal tool: **no accounts, no telemetry**
 ### Features
 
 - **Browse** — waterfall grid (1–8 columns on desktop, 1–2 on phones), filters for keyword, resolution, 12 official aspect ratios grouped as landscape / portrait / wide, category, purity, sort method, direction and toplist range.
-- **Detail page** — progressive loading (cached small image first, HD fades in), prev/next by swipe or hover arrows following the exact order of the list you came from, copyable wallpaper ID, clickable tags and uploader, info card.
+- **Detail page** — progressive loading , prev/next by swipe or hover arrows following the exact order of the list you came from, copyable wallpaper ID, clickable tags and uploader, info card.
 - **Collections** — favourites stored on device, plus read-only access to your site collections via API key (the official API has no write endpoints).
 - **Downloads** — default folder `Pictures/Wallpicks`, customisable on desktop with a native folder picker; on mobile images go to the system gallery.
 - **Wallpaper** — native "set as wallpaper" on Windows, macOS, Linux and Android.
