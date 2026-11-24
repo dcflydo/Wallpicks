@@ -221,7 +221,7 @@
   "update.unsupported": "Please download from the project page on this platform",
   "wp.mode": "Wallpaper mode",
   "wp.mode.fixed": "Fixed",
-  "wp.mode.scroll": "Scroll",
+  "wp.mode.scroll": "Parallax",
   "wp.target": "Apply to",
   "wp.target.home": "Home screen",
   "wp.target.lock": "Lock screen",
