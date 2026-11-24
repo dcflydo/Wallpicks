@@ -2,11 +2,7 @@
   "version": "1.3.5",
   "build": 81,
   "date": "2026-11-24",
-  "notes": "修复：视差模式壁纸取景框未生效的问题；壁纸放大限制原图100%；
-优化：取景框松手回弹铺满。
-Fixes:Resolved an issue where the framing box for parallax-mode wallpapers failed to take effect;
-Limited wallpaper enlargement to 100% of the original image size.
-Optimizations:The framing box now automatically snaps back to fill the screen upon release.",
+  "notes": "修复：视差模式壁纸取景框未生效的问题；壁纸放大限制原图100%；优化：取景框松手回弹铺满。Fixes:Resolved an issue where the framing box for parallax-mode wallpapers failed to take effect;Limited wallpaper enlargement to 100% of the original image size.Optimizations:The framing box now automatically snaps back to fill the screen upon release.",
   "files": {
     "windows_x64": {
       "path": "releases/download/1.3.5/Wallpicks_1.3.5_Windows_x64.zip",
