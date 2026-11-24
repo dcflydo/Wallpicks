@@ -221,7 +221,7 @@
   "update.unsupported": "このプラットフォームはプロジェクトページからダウンロードしてください",
   "wp.mode": "壁紙モード",
   "wp.mode.fixed": "固定",
-  "wp.mode.scroll": "スクロール",
+  "wp.mode.scroll": "視差",
   "wp.target": "適用先",
   "wp.target.home": "ホーム画面",
   "wp.target.lock": "ロック画面",
