@@ -1,33 +1,33 @@
 {
-  "version": "1.3.6",
-  "build": 82,
-  "date": "2026-11-24",
-  "notes": "修复：视差放大和壁纸尺寸冲突；Fixed: Conflict between parallax zoom and wallpaper dimensions;",
+  "version": "1.4.5",
+  "build": 91,
+  "date": "2026-11-26",
+  "notes": "修复：8K壁纸崩溃的问题/收藏只读标记偶现丢失问题/SOCKS5解析错误问题/Android相册无权限未申请问题；优化：多指手势优化/刷新打断优化/缓存删除优化；Fixed: Issues causing crashes with 8K wallpapers, occasional loss of read-only tags for favorites, SOCKS5 parsing errors, and failure to request necessary permissions for the Android photo gallery. Optimized: Multi-finger gesture handling, interruption of refresh operations, and cache deletion processes.",
   "files": {
     "windows_x64": {
-      "path": "releases/download/1.3.6/Wallpicks_1.3.6_Windows_x64.zip",
-      "sha256": "f63600c6153c04415998dfc3e504ae77424d4e8f677f79013d0a373eb06b99ca",
-      "size": 15584471
+      "path": "releases/download/1.4.5/Wallpicks_1.4.5_Windows_x64.zip",
+      "sha256": "8fe3ac0d6ab23e69040feafbbab17acc0331ec6343e5e8ca4d2aeb60d0652022",
+      "size": 15593997
     },
     "linux_x64": {
-      "path": "releases/download/1.3.6/Wallpicks_1.3.6_Linux_x64.tar.gz",
-      "sha256": "bceff5a69c33c0c02272df936325ade900e078e1b4f195029da5696dff427826",
-      "size": 13299974
+      "path": "releases/download/1.4.5/Wallpicks_1.4.5_Linux_x64.tar.gz",
+      "sha256": "8a5d678b3e2b7e0f3dad632371760e04b0cec0734d225de4c30aa9fc67dae1a9",
+      "size": 13302123
     },
     "linux_deb": {
-      "path": "releases/download/1.3.6/Wallpicks_1.3.6_Linux_x64.deb",
-      "sha256": "3619c1af961b0df5108ddb4a07b44048c3597f5e7309f2821312d27432658fe2",
-      "size": 11100436
+      "path": "releases/download/1.4.5/Wallpicks_1.4.5_Linux_x64.deb",
+      "sha256": "b4b7f0e047e1b8fc641c80ac9e2757765d57d95200d0e7c6cdbf8757583cc1a6",
+      "size": 11104236
     },
     "android_arm64": {
-      "path": "releases/download/1.3.6/Wallpicks_1.3.6_Android_arm64-v8a.apk",
-      "sha256": "200709f29ed3ac1815943489b7a8763c004078d3d0290556b6b45781e32082c6",
-      "size": 22115238
+      "path": "releases/download/1.4.5/Wallpicks_1.4.5_Android_arm64-v8a.apk",
+      "sha256": "d8b37b05e26caed1be25d65babe21f3c8abf9094be9329f4ec90c1261c70ed63",
+      "size": 22180846
     },
     "android_x86_64": {
-      "path": "releases/download/1.3.6/Wallpicks_1.3.6_Android_x86_64.apk",
-      "sha256": "c73a1e385b4f97a16fd12d04105b76df63aeec8a0d8e830b5e5b7f382e168a55",
-      "size": 23572358
+      "path": "releases/download/1.4.5/Wallpicks_1.4.5_Android_x86_64.apk",
+      "sha256": "344249946bff508fb36df7434d1f0f8f0be6a2b960f982627f00ed47f01633fa",
+      "size": 23572430
     }
   }
 }
